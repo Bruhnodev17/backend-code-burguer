@@ -13,7 +13,7 @@ class App {
     this.app.use(express.json())
   }
 
-  routes() {
+  routes() { 
     this.app.use(routes)
   }
 }
